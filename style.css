@@ -1,0 +1,34 @@
+@charset "utf-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html ,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+main{
+    position: relative;
+    height: 100vh;
+    background: url("./pacote-d013/imagens/fundo-madeira.jpg") no-repeat center top;
+    background-attachment: fixed; /*Para não ter rolagem*/
+    background-size: auto;
+}
+#telefone{
+    position: absolute;
+    width: 311px;
+    height: 627px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* usar pra ajudar a centralizar a imagem*/
+    background: url("./pacote-d013/imagens/frame-iphone.png") no-repeat;
+}
+#tela{
+    position: relative;
+    top: 13%;
+    left: 7%;
+    width: 269px;
+    height: 471px;
+}
