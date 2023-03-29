@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+::-webkit-scrollbar{   /*Tirar a barra de rolagem da página*/
+    width: 0%;
+    height: 0%;
+}
+img{
+    width: 100vw;
+}
+a{
+    display: block; /*Fazer com que o botão seja rederizado como bloco*/
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{ /*Quando passar o mouse*/
+    background-color: rgba(255, 0, 0, 0.404);
+}
+iframe{
+    width: 100vw;
+    height: 100vh;
+}
